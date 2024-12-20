@@ -1,12 +1,5 @@
-#game-container {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .game {
-  width: 120px;
+  width: 200px;
   text-align: center;
   border: 2px solid red;
   border-radius: 10px;
@@ -15,13 +8,14 @@
   transition: transform 0.3s, background-color 0.3s;
   color: red;
   text-decoration: none;
+  overflow: hidden;
 }
 
 .game img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: auto;
   border-radius: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .game:hover {
@@ -32,6 +26,12 @@
 
 .game span {
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.game p {
+  font-size: 12px;
+  margin: 0;
 }
