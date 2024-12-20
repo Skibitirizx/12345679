@@ -39,13 +39,17 @@ nav a:hover {
   color: black;
 }
 
-main {
-  margin: 20px;
+/* Home Page */
+#home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; /* Ensures the content fills most of the viewport */
 }
 
-/* Home Page */
 #home-content h1 {
-  font-size: 24px;
+  font-size: 32px;
   margin-bottom: 20px;
 }
 
@@ -116,3 +120,4 @@ main {
   font-size: 24px;
   margin-top: 20px;
 }
+
